@@ -1,9 +1,9 @@
 texlive-bin (2014.20140926.35254-7) stable-proposed-updates; urgency=medium
 
-  * update dvipdfmx to the version released in TL 2015, as the version
+  * update dvipdfmx to a version where Type1 font is fixed, as the version
     in Jessie is broken with respect to PostScript font files.
 
- -- Norbert Preining <preining@debian.org>  Thu, 11 Jun 2015 17:13:42 +0900
+ -- Norbert Preining <preining@debian.org>  Sun, 23 Aug 2015 09:59:34 +0900
 
 texlive-bin (2014.20140926.35254-6) unstable; urgency=high
 

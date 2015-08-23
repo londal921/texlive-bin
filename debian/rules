@@ -68,7 +68,7 @@ override_dh_autoreconf:
 	# dvipdfmx needs updating, as it is completely broken with
 	# respect to postscript type1 files
 	mv texk/dvipdfm-x texk/dvipfm-x.save
-	tar -xzf debian/dvipdfmx-20150611.tar.gz
+	tar -xzf debian/dvipdfmx-20150823.tar.gz
 	dh_autoreconf --as-needed
 
 override_dh_autoreconf_clean:
